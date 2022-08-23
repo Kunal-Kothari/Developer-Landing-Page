@@ -327,3 +327,54 @@ button {
   margin-top: 50px;
   margin-left: 20px;
 }
+
+
+/* -------------------------------------- */
+@media screen and (max-width:1400px) 
+{.header-image
+  {width: 400px;}
+}
+
+
+
+@media screen and (max-width: 992px) {
+  
+    .header-image{ display: none;}
+    .header-text{
+      font-size: large;
+    }
+    .nav-item{
+      display: none;
+    }
+    .companies{
+      display: none;
+    }
+    .cards{
+      flex-wrap: wrap;
+    }
+.blog-heading{
+  display: none;
+}
+    .blog-cards{
+     display: none;
+    }
+
+    .faq-section{
+      display: flex;
+      flex-direction: column;
+    }
+    .faq-image{
+      display: none;
+    }
+    .download-section{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-section{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-left{
+      margin-top: 20px;;
+    }
+}
